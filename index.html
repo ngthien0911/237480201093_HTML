@@ -2,21 +2,73 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Bài tập HTML</title>
+    <title>Bài tập HTML - Chương 2.2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 12px;
+            text-align: center;
+            width: 400px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            background: #4CAF50;
+            color: white;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background: #43a047;
+        }
+
+        footer {
+            margin-top: 15px;
+            font-size: 13px;
+            color: #999;
+        }
+    </style>
 </head>
+
 <body>
-    <h2>BÀI TẬP HTML</h2>
-    <p>Chọn bài để xem:</p>
+    <div class="container">
+        <h1>BÀI TẬP HTML</h1>
+        <p>Chương 2.2 – Thực hành</p>
 
-    <ul>
-        <li>
-            <a href="ex01.html">Bài ex01</a>
-        </li>
-        <li>
-            <a href="ex02.html">Bài ex02</a>
-        </li>
-    </ul>
+        <a href="ex01.html"> Bài tập ex01</a>
+        <a href="ex02.html"> Bài tập ex02</a>
+
+        <footer>
+            SV: Minh Thiện <br>
+            MSSV: 237480201093
+        </footer>
+    </div>
 </body>
-
 </html>
-
